@@ -1,16 +1,19 @@
-### Hi there 👋
-
-<!--
-**PenPow/PenPow** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```typescript
+export default class PenPow extends Programmer implements BadCode {
+  constructor(config) {
+    super(config);
+    
+    this.nerd = true;
+    this.goodCode = false;
+    
+    this.languages = ['typescript','javascript','python'];
+    
+    this.projects = {
+      Signal: 'A Discord bot coded in Javascript (and eventually typescript), that does everything, but terribly',
+    }
+    
+    this.os = 'Ubuntu';
+    this.server = 'PC from 2006';
+  }
+}
+```
