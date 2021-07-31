@@ -13,7 +13,7 @@ export default class PenPow extends Programmer {
       Discordo: 'An in development Discord API wrapper',
     }
     
-    this.os = 'Ubuntu';
+    this.os = ['Ubuntu', 'Windows 10', 'Arch'];
     this.server = 'PC from 2006';
   }
 }
