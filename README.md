@@ -1,5 +1,5 @@
 ```typescript
-export default class PenPow extends Programmer implements BadCode {
+export default class PenPow extends Programmer {
   constructor(config) {
     super(config);
     
@@ -10,6 +10,7 @@ export default class PenPow extends Programmer implements BadCode {
     
     this.projects = {
       Signal: 'A Discord bot coded in Javascript (and eventually typescript), that does everything, but terribly',
+      Discordo: 'An in development Discord API wrapper',
     }
     
     this.os = 'Ubuntu';
