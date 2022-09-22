@@ -3,18 +3,14 @@ export default class PenPow extends Programmer {
   constructor(config) {
     super(config);
     
-    this.nerd = true;
-    this.goodCode = false;
-    
-    this.languages = ['typescript','javascript','python'];
+    this.languages = ['typescript','nim','python'];
     
     this.projects = {
-      Signal: 'A Discord bot coded in Javascript (and eventually typescript), that does everything, but terribly',
-      Discordo: 'An in development Discord API wrapper',
+      Sentry: 'A sort of abandoned moderation bot i was working on',
     }
     
-    this.os = ['Ubuntu', 'Windows 10', 'Arch'];
-    this.server = 'PC from 2006';
+    this.os = ['Ubuntu', 'Windows 11'];
+    this.server = 'OVH Dedicated Server ✨';
   }
 }
 ```
