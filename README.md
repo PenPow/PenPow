@@ -1,16 +1,16 @@
 ```typescript
-export default class PenPow extends Programmer {
+export default class PenPow extends Student {
   constructor(config) {
     super(config);
     
-    this.languages = ['typescript','nim','python'];
+    this.languages = ['typescript','python'];
     
     this.projects = {
-      Sentry: 'A sort of abandoned moderation bot i was working on',
+      Sentry: 'A Discord Moderation Bot',
     }
     
-    this.os = ['Ubuntu', 'Windows 11'];
-    this.server = 'OVH Dedicated Server ✨';
+    this.os = 'Windows 11'; // TODO: Migrate to Linux Mint
+    this.server = 'Hetzner';
   }
 }
 ```
